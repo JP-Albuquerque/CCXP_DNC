@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    background-color: #FFD900;
+
+}
+
+#logo{
+    width: 140px;
+
+    margin:  36px auto 30px 30px;
+}
+
+main{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#texto{
+    background-color: rgba(81, 73, 136, 1);
+    height: 610px;
+}
+
+h1{
+    color: rgba(243, 198, 31, 1);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+#intro{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 29px;
+    margin: 50px;
+}
+
+.timer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    color: black;
+}
+
+#contador{
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#countdown{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    height: 80px;
+}
+
+h3{
+    color: rgba(243, 198, 31, 1);   
+    font-size: 40px;
+    margin: 0px 0px 15px 8px;
+    padding: 0px;
+}
+.animacao{
+    margin: 15px;
+}
+
+#pSubtitulo{
+    color: rgba(227, 56, 129, 1);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+
+    margin-top: 0px;
+}
+
+footer{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+button{
+    background-color: rgba(81, 73, 136, 1);
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    border-radius: 20px;
+
+    width: 750px;
+    height: 150px;
+
+    margin: auto;
+}
+
+button:hover{
+    color: rgba(243, 198, 31, 1);
+    cursor: pointer;
+}
+
+.card-highlight {
+    box-shadow: 10px 10px 10px grey;
+}
+
+

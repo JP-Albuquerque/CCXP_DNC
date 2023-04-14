@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>CCXP</title>
+</head>
+
+<body>
+    <nav>
+        <img src="logo.gif" id="logo">
+    </nav>
+    <main>
+        <div id="texto">
+            <h1>Reviva o épico</h1>
+            <h2>De 30 nov a 3 dez</h2>
+            <p id="intro">Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em
+                casa". Sim, em
+                novembro de 2023, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos
+                os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar
+                nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.</p>
+        </div>
+        <section class="animacao">
+            <div id="contador">
+                <div class="countdown">
+                    <h3 id="inDia">00</h3>
+                </div>
+                <div class="countdown">
+                    <h3 id="inHora">00</h3>
+                </div>
+                <div class="countdown">
+                    <h3 id="inMinuto">00</h3>
+                </div>
+                <div class="countdown">
+                    <h3 id="inSegundo">00</h3>
+                </div>
+            </div>
+
+            <div>
+                <p id="pSubtitulo">Para a maior ccxp de todos os tempos</p>
+                <video width="854" height="480" autoplay muted loop>
+                    <source src="Arlequina.mp4" type="video/mp4">
+                </video>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h3>Ainda da tempo de garantir o seu, mas corre!</h3>
+            <img class="cards-ingressos" src="quinta.png" onclick="selectCard('#quinta')" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta">
+            <img class="cards-ingressos" src="sexta.png" onclick="selectCard('#sexta')" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta">
+            <img class="cards-ingressos" src="sabado.png" onclick="selectCard('#sabado')" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" id="sabado">
+            <img class="cards-ingressos" src="domingo.png" onclick="selectCard('#domingo')" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo">
+        </div>
+        <button onclick="showSelectedCards()">Garanta o seu!</button>
+    </footer>
+</body>
+
+<script src="countdown.js"></script>
+<script src="main.js"></script>
+
+</html>
